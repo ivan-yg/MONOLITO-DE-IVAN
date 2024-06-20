@@ -1,0 +1,88 @@
+.monolito { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 20px; 
+    margin: 50px auto; 
+    background-color: #f4d6a0; 
+    border: 2px solid #5e3711; 
+    padding: 95px; 
+    box-sizing: border-box; 
+} 
+.P{ 
+     
+    margin-top: 0px; 
+} 
+
+.cabeza, .cuerpo, .piernas { 
+    width: 180px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
+.cabeza { 
+    height: 180px; 
+    border-bottom: 2px solid #5e3711; 
+} 
+
+.cara { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+
+.ojos, .boca, .nariz{ 
+    display: flex; 
+    justify-content: center; 
+} 
+
+.ojos div { 
+    width: 50px; 
+    height: 50px; 
+    background-color: #5e3711; 
+    margin: 5px; 
+} 
+.boca div { 
+    width: 50px; 
+    height: 20px; 
+    background-color: #5e3711; 
+    margin: 5px; 
+} 
+.nariz div{ 
+    width: 20px; 
+    height: 50px; 
+    background-color: #5e3711; 
+    margin: 5px; 
+} 
+
+.cuerpo { 
+    height: 80px; 
+    flex-direction: column; 
+} 
+
+.brazos { 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+} 
+
+.brazo { 
+    width: 25%; 
+    height: 100px; 
+    background-color: #5e3711; 
+    border: 2px solid #5e3711; 
+} 
+
+.piernas { 
+    height: 80px; 
+    margin-top: 100px; 
+} 
+
+.pierna { 
+    width: 50px; 
+    height: 150px; 
+    background-color: #5e3711; 
+    border: 2px solid #5e3711; 
+    margin: 20px; 
+}
